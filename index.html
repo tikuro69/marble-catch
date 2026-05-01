@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marble Catch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Marble Catch</h1>
+
+    <div class="game-info">
+      <span>Score: <strong id="score">0</strong></span>
+      <span>Miss: <strong id="miss">0</strong>/3</span>
+    </div>
+
+    <div class="game-layout">
+      <div class="game-canvas-area">
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+      </div>
+
+      <aside class="game-console">
+        <h2>Console</h2>
+        <div class="console-item">Ball X: <span id="ballX">0</span></div>
+        <div class="console-item">Ball Y: <span id="ballY">0</span></div>
+        <div class="console-item">Velocity X: <span id="ballVx">0</span></div>
+        <div class="console-item">Velocity Y: <span id="ballVy">0</span></div>
+        <div class="console-item">Gravity: <span id="ballGravity">0</span></div>
+        <div class="console-item">Cat Angle: <span id="catAngle">0</span></div>
+        <div class="console-item">Cup X: <span id="cupX">0</span></div>
+        <div class="console-item">Cup Y: <span id="cupY">0</span></div>
+      </aside>
+    </div>
+
+    <p class="help">← → キーでカップを動かして、ビー玉をキャッチしてください。</p>
+    <p class="help">Space キーでリスタート</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
