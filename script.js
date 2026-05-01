@@ -37,8 +37,8 @@ function generateSpinners() {
       friction: 0.90,
     },
     {
-      x: 165,
-      y: 400,
+      x: 185,
+      y: 360,
       radius: 30,
       angle: 0,
       rotationSpeed: 0,
